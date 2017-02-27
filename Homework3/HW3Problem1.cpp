@@ -1,6 +1,7 @@
 #include <iostream>
 #include <iomanip>
 #include <array>
+#include <cmath>
 
 int main()
 {
@@ -34,8 +35,7 @@ int main()
 			}
 	}
 
-	std::cout << "The minimum pair is (x"<< l << ", y" << l << ") , whose square of magnitude is " << min << "." << std::endl;
-
+	std::cout << "The minimum pair is (x"<< l << ", y" << l << ") , whose square of magnitude is " << sqrt(min) << "." << std::endl;
     return 0;
 }
 
