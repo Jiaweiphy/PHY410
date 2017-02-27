@@ -7,8 +7,8 @@ int main()
 	int n;
 	std::cout << " How many vectors do you have?";
 	std::cin >> n;
-	while (n < 3) {
-		std::cout << "We need at least 3 vectors. Please input again." << std::endl;
+	while (n < 2) {
+		std::cout << "We need at least 2 vectors. Please input again." << std::endl;
 		std::cin >> n;
 	}
 
