@@ -20,7 +20,7 @@ print v
 
 for j in range(25):
  #print r[j]
- R = Matrix(6, 6)       # 3x3 resistance matrix
+ R = Matrix(6, 6)      
  R[0][0] = 1.0+rv      # set components using slicing notation
  R[0][1] = rv
  R[0][2] = rv

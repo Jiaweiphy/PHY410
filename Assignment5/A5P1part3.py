@@ -13,14 +13,14 @@ print r
 
 rv = 10.
 
-v = Matrix(6, 1)       # column vector with 3 rows
+v = Matrix(6, 1)       
 v[0][0] = v0
 print 'v = '
 print v 
 
 for j in range(25):
  #print r[j]
- R = Matrix(6, 6)       # 3x3 resistance matrix
+ R = Matrix(6, 6)       
  R[0][0] = r[j] + rv      # set components using slicing notation
  R[0][1] = rv
  R[0][2] = rv
@@ -71,9 +71,9 @@ for j in range(25):
  i = Matrix_copy(v)
  
  solve_Gauss_Jordan(R, i)
- print " Solution using Gauss-Jordan elimination"
- print " i = "
- print i
+ #print " Solution using Gauss-Jordan elimination"
+ #print " i = "
+ #print i
  
  # effective resistance
  R_eff[j] = v0/(i[0][0] + i[1][0] + i[2][0])-rv
