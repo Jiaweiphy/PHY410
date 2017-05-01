@@ -13,7 +13,7 @@ print r
 
 rv = 10.
 
-v = Matrix(6, 1)       # column vector with 3 rows
+v = Matrix(6, 1)       
 v[0][0] = v0
 print 'v = '
 print v 
@@ -21,7 +21,7 @@ print v
 for j in range(25):
  #print r[j]
  R = Matrix(6, 6)      
- R[0][0] = 1.0+rv      # set components using slicing notation
+ R[0][0] = 1.0+rv      
  R[0][1] = rv
  R[0][2] = rv
  R[0][3] = r[j]+1.0
